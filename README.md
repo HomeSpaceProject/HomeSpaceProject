@@ -10,6 +10,7 @@ For mobile devices, it will also be a client with a texture simplification and p
 Based on our past development experience, we chose the following technologies for project implementation:
 
 ## Architecture
+![imageArchitecture](./docs/images/Architecture.jpg)
 Homespace's core services will be written in the Kotlin language. It will help us to develop quickly, produce maintainable code and reduce the number of possible problems. We will also use a number of NodeJS lambda functions for infrastructure maintaining tasks.
 
 Using Kotlin multiplatform, we can share core business logic between various platforms (iOS, Android, Web, Desktop) and get native applications as an output. That saves us development time, helps to build consistent logic for all platforms, and gives us the benefit of native application performance. And, also, an easy way to integrate with native third-party libraries and the unreal engine. 
